@@ -1,0 +1,21 @@
+{
+  "Navigation": {
+    "home": "Home",
+    "about": "About",
+    "projects": "Projects",
+    "blog": "Blog",
+    "contact": "Contact"
+  },
+  "HomePage": {
+    "eyebrow": "Dynamic portfolio",
+    "title": "Frontend Engineer focused on polished, performant interfaces.",
+    "description": "An early multi-page portfolio foundation for recruiters, founders, and freelance clients. Professional mode is the default, with playful mode as an alternate experience.",
+    "primaryCta": "View Projects",
+    "secondaryCta": "Contact Me",
+    "overviewTitle": "Project overview",
+    "overviewDescription": "Milestone 1 prepares routing, i18n, base layout, and visual mode foundations before database, CMS, and full content pages."
+  },
+  "Footer": {
+    "summary": "Built as a scalable, SEO-friendly portfolio foundation."
+  }
+}

@@ -1,0 +1,101 @@
+:root {
+  color-scheme: light;
+  --font-professional-sans:
+    "Geist Variable", ui-sans-serif, system-ui, -apple-system,
+    BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --font-professional-mono:
+    "Geist Mono Variable", "SFMono-Regular", Consolas, "Liberation Mono", Menlo,
+    monospace;
+  --font-playful-sans:
+    "Plus Jakarta Sans Variable", ui-sans-serif, system-ui, -apple-system,
+    BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --font-playful-display:
+    "Space Grotesk Variable", "Plus Jakarta Sans Variable", ui-sans-serif,
+    system-ui, sans-serif;
+  --font-playful-mono:
+    "JetBrains Mono Variable", "SFMono-Regular", Consolas, "Liberation Mono",
+    Menlo, monospace;
+  --font-body: var(--font-professional-sans);
+  --font-display: var(--font-professional-sans);
+  --font-mono-stack: var(--font-professional-mono);
+
+  --text-xs: 0.75rem;
+  --text-sm: 0.875rem;
+  --text-base: 1rem;
+  --text-lg: 1.125rem;
+  --text-xl: 1.25rem;
+  --text-2xl: 1.5rem;
+  --text-3xl: 1.875rem;
+  --text-4xl: 2.25rem;
+  --text-5xl: 3rem;
+  --text-6xl: 3.75rem;
+  --leading-tight: 1.1;
+  --leading-snug: 1.25;
+  --leading-normal: 1.5;
+  --leading-relaxed: 1.7;
+  --weight-regular: 400;
+  --weight-medium: 500;
+  --weight-semibold: 600;
+  --weight-bold: 700;
+  --weight-black: 800;
+
+  --space-0: 0;
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.25rem;
+  --space-6: 1.5rem;
+  --space-8: 2rem;
+  --space-10: 2.5rem;
+  --space-12: 3rem;
+  --space-16: 4rem;
+  --space-20: 5rem;
+  --space-24: 6rem;
+  --space-32: 8rem;
+  --space-page-x: 1rem;
+  --space-section-y: 4rem;
+
+  --radius-sm: 0.375rem;
+  --radius-md: 0.5rem;
+  --radius-lg: 0.75rem;
+  --radius-xl: 1rem;
+  --radius-2xl: 1.25rem;
+  --radius-full: 9999px;
+  --radius: var(--radius-lg);
+
+  --shadow-sm: 0 1px 2px rgb(10 10 10 / 0.04);
+  --shadow-md: 0 8px 24px rgb(10 10 10 / 0.06);
+  --shadow-lg: 0 16px 48px rgb(10 10 10 / 0.08);
+  --shadow-float: 0 16px 40px rgb(21 21 21 / 0.14);
+  --shadow-none: none;
+
+  --duration-fast: 120ms;
+  --duration-base: 180ms;
+  --duration-slow: 260ms;
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
+  --ease-pop: cubic-bezier(0.34, 1.56, 0.64, 1);
+  --scale-hover: 1.01;
+  --rotate-hover: 0deg;
+  --translate-hover: -2px;
+
+  --container-content: 72rem;
+  --container-wide: 86rem;
+  --focus-ring-width: 3px;
+  --focus-ring-offset: 2px;
+}
+
+@media (min-width: 640px) {
+  :root {
+    --space-page-x: 1.5rem;
+    --space-section-y: 5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  :root {
+    --space-page-x: 2rem;
+    --space-section-y: 6rem;
+  }
+}

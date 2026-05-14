@@ -1,0 +1,21 @@
+{
+  "Navigation": {
+    "home": "Home",
+    "about": "About",
+    "projects": "Projects",
+    "blog": "Blog",
+    "contact": "Contact"
+  },
+  "HomePage": {
+    "eyebrow": "Portfolio dinamis",
+    "title": "Frontend Engineer focused on polished, performant interfaces.",
+    "description": "Fondasi awal portfolio multi-page untuk recruiter, founder, dan client freelance. Professional mode menjadi default, dengan playful mode sebagai alternate experience.",
+    "primaryCta": "Lihat Project",
+    "secondaryCta": "Hubungi Saya",
+    "overviewTitle": "Project overview",
+    "overviewDescription": "Milestone 1 menyiapkan routing, i18n, layout dasar, dan fondasi mode visual sebelum masuk database, CMS, dan halaman konten lengkap."
+  },
+  "Footer": {
+    "summary": "Built as a scalable, SEO-friendly portfolio foundation."
+  }
+}
