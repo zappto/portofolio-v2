@@ -1,11 +1,7 @@
 import type { Metadata } from "next";
 import { cookies } from "next/headers";
-import "@fontsource-variable/geist";
-import "@fontsource-variable/geist-mono";
-import "@fontsource-variable/jetbrains-mono";
-import "@fontsource-variable/plus-jakarta-sans";
-import "@fontsource-variable/space-grotesk";
 import { AppProviders } from "@/components/theme/app-providers";
+import { fontVariableClassName } from "@/config/fonts";
 import { isColorScheme, isVisualMode } from "@/config/site";
 import "@/styles/globals.css";
 
@@ -38,7 +34,7 @@ export default async function RootLayout({
   return (
     <html
       lang="id"
-      className="h-full antialiased"
+      className={`${fontVariableClassName} h-full antialiased`}
       data-theme={initialThemeAttribute}
       data-visual-mode={visualMode}
       suppressHydrationWarning

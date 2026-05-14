@@ -3,6 +3,8 @@
 import { ThemeProvider as NextThemeProvider, useTheme } from "next-themes";
 import { useEffect } from "react";
 import { VisualModeProvider } from "@/components/theme/visual-mode-provider";
+import { Toaster } from "@/components/ui/sonner";
+import { TooltipProvider } from "@/components/ui/tooltip";
 import {
   isColorScheme,
   isVisualMode,
@@ -29,18 +31,21 @@ export function AppProviders({
     : "light";
 
   return (
-    <NextThemeProvider
-      attribute="data-theme"
-      defaultTheme={theme}
-      enableSystem
-      enableColorScheme
-      disableTransitionOnChange
-    >
-      <ThemePreferenceCookie />
-      <VisualModeProvider initialMode={visualMode}>
-        {children}
-      </VisualModeProvider>
-    </NextThemeProvider>
+    <TooltipProvider delayDuration={150}>
+      <NextThemeProvider
+        attribute="data-theme"
+        defaultTheme={theme}
+        enableSystem
+        enableColorScheme
+        disableTransitionOnChange
+      >
+        <ThemePreferenceCookie />
+        <VisualModeProvider initialMode={visualMode}>
+          {children}
+          <Toaster position="bottom-right" richColors closeButton />
+        </VisualModeProvider>
+      </NextThemeProvider>
+    </TooltipProvider>
   );
 }
 

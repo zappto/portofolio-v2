@@ -4,7 +4,9 @@
     "about": "About",
     "projects": "Projects",
     "blog": "Blog",
-    "contact": "Contact"
+    "contact": "Contact",
+    "resume": "Resume",
+    "menu": "Menu situs"
   },
   "HomePage": {
     "eyebrow": "Portfolio dinamis",
@@ -16,6 +18,7 @@
     "overviewDescription": "Milestone 1 menyiapkan routing, i18n, layout dasar, dan fondasi mode visual sebelum masuk database, CMS, dan halaman konten lengkap."
   },
   "Footer": {
-    "summary": "Built as a scalable, SEO-friendly portfolio foundation."
+    "summary": "Built as a scalable, SEO-friendly portfolio foundation.",
+    "tagline": "Professional first. Playful when useful."
   }
 }

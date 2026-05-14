@@ -4,7 +4,9 @@
     "about": "About",
     "projects": "Projects",
     "blog": "Blog",
-    "contact": "Contact"
+    "contact": "Contact",
+    "resume": "Resume",
+    "menu": "Site menu"
   },
   "HomePage": {
     "eyebrow": "Dynamic portfolio",
@@ -16,6 +18,7 @@
     "overviewDescription": "Milestone 1 prepares routing, i18n, base layout, and visual mode foundations before database, CMS, and full content pages."
   },
   "Footer": {
-    "summary": "Built as a scalable, SEO-friendly portfolio foundation."
+    "summary": "Built as a scalable, SEO-friendly portfolio foundation.",
+    "tagline": "Professional first. Playful when useful."
   }
 }

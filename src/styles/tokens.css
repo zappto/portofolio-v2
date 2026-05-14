@@ -1,20 +1,15 @@
 :root {
   color-scheme: light;
-  --font-professional-sans:
-    "Geist Variable", ui-sans-serif, system-ui, -apple-system,
-    BlinkMacSystemFont, "Segoe UI", sans-serif;
-  --font-professional-mono:
-    "Geist Mono Variable", "SFMono-Regular", Consolas, "Liberation Mono", Menlo,
-    monospace;
-  --font-playful-sans:
-    "Plus Jakarta Sans Variable", ui-sans-serif, system-ui, -apple-system,
-    BlinkMacSystemFont, "Segoe UI", sans-serif;
-  --font-playful-display:
-    "Space Grotesk Variable", "Plus Jakarta Sans Variable", ui-sans-serif,
-    system-ui, sans-serif;
-  --font-playful-mono:
-    "JetBrains Mono Variable", "SFMono-Regular", Consolas, "Liberation Mono",
-    Menlo, monospace;
+  --font-professional-sans: var(--font-geist-sans), ui-sans-serif, system-ui,
+    -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --font-professional-mono: var(--font-geist-mono), "SFMono-Regular", Consolas,
+    "Liberation Mono", Menlo, monospace;
+  --font-playful-sans: var(--font-plus-jakarta-sans), ui-sans-serif, system-ui,
+    -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --font-playful-display: var(--font-space-grotesk), var(--font-plus-jakarta-sans),
+    ui-sans-serif, system-ui, sans-serif;
+  --font-playful-mono: var(--font-jetbrains-mono), "SFMono-Regular", Consolas,
+    "Liberation Mono", Menlo, monospace;
   --font-body: var(--font-professional-sans);
   --font-display: var(--font-professional-sans);
   --font-mono-stack: var(--font-professional-mono);
