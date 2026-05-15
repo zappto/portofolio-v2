@@ -16,10 +16,17 @@ export const contentStatusEnum = pgEnum("content_status", [
 export const localeEnum = pgEnum("locale", ["id", "en"]);
 
 export const skillLevelEnum = pgEnum("skill_level", [
-  "beginner",
-  "intermediate",
-  "advanced",
-  "expert",
+  "exploring",
+  "working_knowledge",
+  "production_ready",
+  "core_strength",
+]);
+
+export const skillPriorityEnum = pgEnum("skill_priority", [
+  "primary",
+  "secondary",
+  "supporting",
+  "learning",
 ]);
 
 export const employmentTypeEnum = pgEnum("employment_type", [

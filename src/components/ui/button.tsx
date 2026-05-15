@@ -5,7 +5,7 @@ import { Slot } from "radix-ui";
 import { cn } from "@/lib/utils";
 
 const buttonVariants = cva(
-  "portfolio-button group/button inline-flex shrink-0 items-center justify-center whitespace-nowrap border bg-clip-padding text-sm font-medium outline-none select-none transition-all duration-[var(--duration-base)] ease-[var(--ease-out)] focus-visible:ring-[var(--focus-ring-width)] focus-visible:ring-ring/35 disabled:pointer-events-none disabled:opacity-50 active:not-aria-[haspopup]:translate-y-px [&_svg]:pointer-events-none [&_svg]:shrink-0 [&_svg:not([class*='size-'])]:size-4",
+  "portfolio-button group/button inline-flex shrink-0 items-center justify-center whitespace-nowrap border bg-clip-padding text-sm font-medium outline-none select-none transition-[background-color,border-color,color,box-shadow,opacity,transform] duration-[var(--duration-base)] ease-[var(--ease-out)] focus-visible:ring-[var(--focus-ring-width)] focus-visible:ring-ring/35 disabled:pointer-events-none disabled:opacity-50 active:not-aria-[haspopup]:translate-y-px [&_svg]:pointer-events-none [&_svg]:shrink-0 [&_svg:not([class*='size-'])]:size-4",
   {
     variants: {
       tone: {

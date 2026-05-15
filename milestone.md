@@ -430,14 +430,14 @@ Membangun fondasi visual berdasarkan design system dua mode.
 
 ### 3.1 Setup design tokens
 
-- [ ] Buat `tokens.css`.
-- [ ] Buat `themes.css`.
-- [ ] Tambahkan token professional light.
-- [ ] Tambahkan token professional dark.
-- [ ] Tambahkan token playful light.
-- [ ] Tambahkan token playful dark.
-- [ ] Mapping token ke Tailwind config.
-- [ ] Mapping token ke shadcn variables.
+- [x] Buat `tokens.css`.
+- [x] Buat `themes.css`.
+- [x] Tambahkan token professional light.
+- [x] Tambahkan token professional dark.
+- [x] Tambahkan token playful light.
+- [x] Tambahkan token playful dark.
+- [x] Mapping token ke Tailwind config.
+- [x] Mapping token ke shadcn variables.
 
 ---
 
@@ -460,85 +460,85 @@ JetBrains Mono
 
 Tasks:
 
-- [ ] Setup font dengan `next/font`.
-- [ ] Batasi font weight agar bundle tidak bengkak.
-- [ ] Buat typography scale.
-- [ ] Buat prose style untuk rich text.
-- [ ] Buat heading style per mode.
+- [x] Setup font dengan `next/font`.
+- [x] Batasi font weight agar bundle tidak bengkak.
+- [x] Buat typography scale.
+- [x] Buat prose style untuk rich text.
+- [x] Buat heading style per mode.
 
 ---
 
 ### 3.3 Setup shadcn/ui
 
-- [ ] Init shadcn.
-- [ ] Install komponen dasar:
-  - [ ] Button
-  - [ ] Card
-  - [ ] Input
-  - [ ] Textarea
-  - [ ] Select
-  - [ ] Dialog
-  - [ ] Dropdown Menu
-  - [ ] Tabs
-  - [ ] Badge
-  - [ ] Separator
-  - [ ] Sheet
-  - [ ] Tooltip
-  - [ ] Toast/Sonner
-  - [ ] Form
+- [x] Init shadcn.
+- [x] Install komponen dasar:
+  - [x] Button
+  - [x] Card
+  - [x] Input
+  - [x] Textarea
+  - [x] Select
+  - [x] Dialog
+  - [x] Dropdown Menu
+  - [x] Tabs
+  - [x] Badge
+  - [x] Separator
+  - [x] Sheet
+  - [x] Tooltip
+  - [x] Toast/Sonner
+  - [x] Form
 
 ---
 
 ### 3.4 Build custom shared components
 
-- [ ] SiteHeader.
-- [ ] SiteFooter.
-- [ ] MobileNav.
-- [ ] ThemeSwitcher.
-- [ ] LocaleSwitcher.
-- [ ] SectionHeader.
-- [ ] Container.
-- [ ] PageHeader.
-- [ ] EmptyState.
-- [ ] LoadingState.
-- [ ] ErrorState.
-- [ ] RichTextRenderer.
-- [ ] SEOJsonLd component.
-- [ ] ExternalLink.
-- [ ] CopyButton.
+- [x] SiteHeader.
+- [x] SiteFooter.
+- [x] MobileNav.
+- [x] ThemeSwitcher.
+- [x] LocaleSwitcher.
+- [x] SectionHeader.
+- [x] Container.
+- [x] PageHeader.
+- [x] EmptyState.
+- [x] LoadingState.
+- [x] ErrorState.
+- [x] RichTextRenderer.
+- [x] SEOJsonLd component.
+- [x] ExternalLink.
+- [x] CopyButton.
 
 ---
 
 ### 3.5 Build portfolio-specific components
 
-- [ ] HeroSection.
-- [ ] AboutPreview.
-- [ ] FeaturedProjects.
-- [ ] ProjectCard.
-- [ ] ProjectDetailHero.
-- [ ] TechBadge.
-- [ ] SkillCard.
-- [ ] ExperienceTimeline.
-- [ ] BlogCard.
-- [ ] CaseStudyCard.
-- [ ] StatCard.
-- [ ] ContactCTA.
-- [ ] ResumeCTA.
-- [ ] GuestbookCard.
-- [ ] PlaygroundCard.
+- [x] HeroSection.
+- [x] AboutPreview.
+- [x] FeaturedProjects.
+- [x] ProjectCard.
+- [x] ProjectDetailHero.
+- [x] TechBadge.
+- [x] SkillCard.
+- [x] ExperienceTimeline.
+- [x] BlogCard.
+- [x] CaseStudyCard.
+- [x] StatCard.
+- [x] ContactCTA.
+- [x] ResumeCTA.
+- [x] GuestbookCard.
+- [x] PlaygroundCard.
 
 ---
 
 ### 3.6 Component variants by mode
 
-- [ ] Button professional variant.
-- [ ] Button playful variant.
-- [ ] Card professional variant.
-- [ ] Card playful variant.
-- [ ] Navbar professional variant.
-- [ ] Navbar playful variant.
-- [ ] Project card professional variant.
-- [ ] Project card playful variant.
+- [x] Button professional variant.
+- [x] Button playful variant.
+- [x] Card professional variant.
+- [x] Card playful variant.
+- [x] Navbar professional variant.
+- [x] Navbar playful variant.
+- [x] Project card professional variant.
+- [x] Project card playful variant.
 
 ## Output
 
@@ -551,11 +551,11 @@ Tasks:
 
 ## Acceptance Criteria
 
-- [ ] Komponen bisa dipakai di professional dan playful mode.
-- [ ] Tidak ada warna hardcoded yang tidak perlu.
-- [ ] Token dipakai konsisten.
-- [ ] Font tampil benar.
-- [ ] Komponen tetap accessible secara dasar.
+- [x] Komponen bisa dipakai di professional dan playful mode.
+- [x] Tidak ada warna hardcoded yang tidak perlu.
+- [x] Token dipakai konsisten.
+- [x] Font tampil benar.
+- [x] Komponen tetap accessible secara dasar.
 
 ---
 
@@ -571,97 +571,97 @@ Membangun halaman publik inti dengan Professional Mode sebagai default.
 
 Sections:
 
-- [ ] Hero.
-- [ ] Short About.
-- [ ] Featured Projects.
-- [ ] Skills Snapshot.
-- [ ] Experience Preview.
-- [ ] Coding Stats Preview.
-- [ ] Blog Preview.
-- [ ] Contact CTA.
+- [x] Hero.
+- [x] Short About.
+- [x] Featured Projects.
+- [x] Skills Snapshot.
+- [x] Experience Preview.
+- [x] Coding Stats Preview.
+- [x] Blog Preview.
+- [x] Contact CTA.
 
 Data:
 
-- [ ] Fetch profile.
-- [ ] Fetch featured projects.
-- [ ] Fetch featured skills.
-- [ ] Fetch latest posts.
-- [ ] Fetch experience preview.
-- [ ] Fetch stats summary.
+- [x] Fetch profile.
+- [x] Fetch featured projects.
+- [x] Fetch featured skills.
+- [x] Fetch latest posts.
+- [x] Fetch experience preview.
+- [x] Fetch stats summary.
 
 ---
 
 ### 4.2 About Page
 
-- [ ] Bio lengkap.
-- [ ] Avatar/profile image.
-- [ ] Developer identity.
-- [ ] Work principles.
-- [ ] Technical interest.
-- [ ] CTA ke contact dan resume.
+- [x] Bio lengkap.
+- [x] Avatar/profile image.
+- [x] Developer identity.
+- [x] Work principles.
+- [x] Technical interest.
+- [x] CTA ke contact dan resume.
 
 ---
 
 ### 4.3 Skills Page
 
-- [ ] Skill list.
-- [ ] Category grouping.
-- [ ] Search skill.
-- [ ] Filter category.
-- [ ] Skill level display.
-- [ ] Related tech display.
+- [x] Skill list.
+- [x] Category grouping.
+- [x] Search skill.
+- [x] Filter category.
+- [x] Skill level display.
+- [x] Related tech display.
 
 ---
 
 ### 4.4 Experience Page
 
-- [ ] Timeline.
-- [ ] Experience detail.
-- [ ] Employment type badge.
-- [ ] Date range.
-- [ ] Tech used.
-- [ ] Empty state.
+- [x] Timeline.
+- [x] Experience detail.
+- [x] Employment type badge.
+- [x] Date range.
+- [x] Tech used.
+- [x] Empty state.
 
 ---
 
 ### 4.5 Tech Stack Page
 
-- [ ] Stack group.
-- [ ] Tool description.
-- [ ] Reason why used.
-- [ ] Related project.
-- [ ] Category filter.
+- [x] Stack group.
+- [x] Tool description.
+- [x] Reason why used.
+- [x] Related project.
+- [x] Category filter.
 
 ---
 
 ### 4.6 Coding Stats Page
 
-- [ ] Curated stats display.
-- [ ] Projects shipped.
-- [ ] Articles written.
-- [ ] UI experiments count.
-- [ ] Technologies used count.
-- [ ] Case studies count.
+- [x] Curated stats display.
+- [x] Projects shipped.
+- [x] Articles written.
+- [x] UI experiments count.
+- [x] Technologies used count.
+- [x] Case studies count.
 
 ---
 
 ### 4.7 Resume Page
 
-- [ ] Resume preview area.
-- [ ] Resume download button.
-- [ ] Locale-based resume.
-- [ ] Last updated info.
-- [ ] Track download event placeholder.
+- [x] Resume preview area.
+- [x] Resume download button.
+- [x] Locale-based resume.
+- [x] Last updated info.
+- [x] Track download event placeholder.
 
 ---
 
 ### 4.8 Contact Page
 
-- [ ] Contact form UI.
-- [ ] Contact info.
-- [ ] Social links.
-- [ ] Availability status.
-- [ ] Purpose selector.
+- [x] Contact form UI.
+- [x] Contact info.
+- [x] Social links.
+- [x] Availability status.
+- [x] Purpose selector.
 
 ## Output
 
@@ -673,11 +673,11 @@ Data:
 
 ## Acceptance Criteria
 
-- [ ] Home page menjelaskan identity dalam 10 detik.
-- [ ] Resume dan contact mudah ditemukan.
-- [ ] Semua core pages render dari server sebisa mungkin.
-- [ ] Tidak ada admin/editor bundle di public pages.
-- [ ] Professional mode terasa clean dan premium.
+- [x] Home page menjelaskan identity dalam 10 detik.
+- [x] Resume dan contact mudah ditemukan.
+- [x] Semua core pages render dari server sebisa mungkin.
+- [x] Tidak ada admin/editor bundle di public pages.
+- [x] Professional mode terasa clean dan premium.
 
 ---
 
@@ -691,12 +691,12 @@ Membuat dashboard admin sebagai pusat pengelolaan konten.
 
 ### 5.1 Admin layout
 
-- [ ] Sidebar.
-- [ ] Topbar.
-- [ ] Breadcrumb.
-- [ ] User/admin menu.
-- [ ] Logout button.
-- [ ] Responsive admin layout.
+- [x] Sidebar.
+- [x] Topbar.
+- [x] Breadcrumb.
+- [x] User/admin menu.
+- [x] Logout button.
+- [x] Responsive admin layout.
 
 ---
 
@@ -704,76 +704,76 @@ Membuat dashboard admin sebagai pusat pengelolaan konten.
 
 Cards:
 
-- [ ] Total projects.
-- [ ] Total posts.
-- [ ] Total case studies.
-- [ ] Draft count.
-- [ ] Contact messages count.
-- [ ] Guestbook pending count.
-- [ ] Resume download count.
-- [ ] Page views summary.
+- [x] Total projects.
+- [x] Total posts.
+- [x] Total case studies.
+- [x] Draft count.
+- [x] Contact messages count.
+- [x] Guestbook pending count.
+- [x] Resume download count.
+- [x] Page views summary.
 
 ---
 
 ### 5.3 Admin table pattern
 
-- [ ] Data table component.
-- [ ] Search.
-- [ ] Filter.
-- [ ] Sort.
-- [ ] Pagination.
-- [ ] Row actions.
-- [ ] Bulk action optional.
+- [x] Data table component.
+- [x] Search.
+- [x] Filter.
+- [x] Sort.
+- [x] Pagination.
+- [x] Row actions.
+- [x] Bulk action optional.
 
 ---
 
 ### 5.4 Admin form pattern
 
-- [ ] React Hook Form setup.
-- [ ] Zod resolver.
-- [ ] Field error state.
-- [ ] Loading state.
-- [ ] Dirty state warning optional.
-- [ ] Submit success toast.
-- [ ] Submit error toast.
+- [x] React Hook Form setup.
+- [x] Zod resolver.
+- [x] Field error state.
+- [x] Loading state.
+- [x] Dirty state warning optional.
+- [x] Submit success toast.
+- [x] Submit error toast.
 
 ---
 
 ### 5.5 Tiptap editor setup
 
-- [ ] Install Tiptap.
-- [ ] Basic editor component.
-- [ ] Toolbar.
-- [ ] Heading.
-- [ ] Paragraph.
-- [ ] Bold/italic.
-- [ ] Link.
-- [ ] Image.
-- [ ] Bullet list.
-- [ ] Ordered list.
-- [ ] Blockquote.
-- [ ] Code block.
-- [ ] Divider.
-- [ ] Callout optional.
-- [ ] Save JSON output.
-- [ ] Generate HTML output.
-- [ ] Sanitize output.
+- [x] Install Tiptap.
+- [x] Basic editor component.
+- [x] Toolbar.
+- [x] Heading.
+- [x] Paragraph.
+- [x] Bold/italic.
+- [x] Link.
+- [x] Image.
+- [x] Bullet list.
+- [x] Ordered list.
+- [x] Blockquote.
+- [x] Code block.
+- [x] Divider.
+- [x] Callout optional.
+- [x] Save JSON output.
+- [x] Generate HTML output.
+- [x] Sanitize output.
 
 Important:
 
-- [ ] Tiptap hanya dimuat di admin/editor routes.
+- [x] Tiptap hanya dimuat di admin/editor routes.
 
 ---
 
 ### 5.6 Upload system
 
-- [ ] Upload component.
-- [ ] Validate file type.
-- [ ] Validate file size.
-- [ ] Upload to Supabase Storage.
-- [ ] Return public URL/path.
-- [ ] Preview uploaded image/file.
-- [ ] Delete/replace media optional.
+- [x] Upload component.
+- [x] Validate file type.
+- [x] Validate file size.
+- [x] Upload to Supabase Storage.
+- [x] Return public URL/path.
+- [x] Preview uploaded image/file.
+- [x] Delete/replace media optional.
 
 ## Output
 
@@ -786,11 +786,11 @@ Important:
 
 ## Acceptance Criteria
 
-- [ ] Admin dapat mengelola konten dari UI.
-- [ ] Form memiliki validasi.
-- [ ] Editor tidak masuk public bundle.
-- [ ] Upload file tersimpan di Supabase Storage.
-- [ ] Error state jelas.
+- [x] Admin dapat mengelola konten dari UI.
+- [x] Form memiliki validasi.
+- [x] Editor tidak masuk public bundle.
+- [x] Upload file tersimpan di Supabase Storage.
+- [x] Error state jelas.
 
 ---
 

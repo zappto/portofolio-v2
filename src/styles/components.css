@@ -1,0 +1,173 @@
+@layer components {
+  .portfolio-button {
+    border-radius: var(--radius-lg);
+  }
+
+  [data-visual-mode="playful"] .portfolio-button {
+    border-color: var(--border-strong);
+    box-shadow: var(--shadow-sm);
+  }
+
+  [data-visual-mode="playful"] .portfolio-button:hover {
+    transform: translateY(var(--translate-hover)) rotate(var(--rotate-hover));
+    box-shadow: var(--shadow-md);
+  }
+
+  [data-visual-mode="playful"] .portfolio-button:active {
+    transform: translateY(0) rotate(0deg);
+    box-shadow: var(--shadow-none);
+  }
+
+  .portfolio-card {
+    border: 1px solid var(--border);
+    border-radius: var(--radius-xl);
+    background: var(--card);
+    color: var(--card-foreground);
+    box-shadow: var(--shadow-sm);
+  }
+
+  [data-visual-mode="playful"] .portfolio-card {
+    border-color: var(--border-strong);
+    box-shadow: var(--shadow-md);
+  }
+
+  .portfolio-card-professional {
+    border-color: var(--border);
+    box-shadow: var(--shadow-sm);
+  }
+
+  .portfolio-card-playful {
+    border-color: var(--border-strong);
+    box-shadow: var(--shadow-md);
+  }
+
+  .portfolio-button-tone-professional:hover {
+    transform: none;
+  }
+
+  .portfolio-button-tone-professional {
+    box-shadow: none;
+  }
+
+  .portfolio-button-tone-playful {
+    border-color: var(--border-strong);
+    box-shadow: var(--shadow-sm);
+  }
+
+  .portfolio-button-tone-playful:hover {
+    transform: translateY(var(--translate-hover)) rotate(var(--rotate-hover));
+    box-shadow: var(--shadow-md);
+  }
+
+  .portfolio-button-tone-playful:active {
+    transform: translateY(0);
+    box-shadow: var(--shadow-none);
+  }
+
+  .portfolio-nav {
+    border-bottom: 1px solid color-mix(in oklab, var(--border) 75%, transparent);
+    background: color-mix(in oklab, var(--background) 90%, transparent);
+    backdrop-filter: blur(16px);
+  }
+
+  .portfolio-nav-playful {
+    border-bottom-width: 2px;
+    border-bottom-color: var(--border);
+    background: var(--background);
+    backdrop-filter: none;
+  }
+
+  [data-visual-mode="playful"] .portfolio-nav {
+    border-bottom-color: var(--border);
+    background: var(--background);
+  }
+
+  [data-visual-mode="playful"] .portfolio-nav-playful {
+    box-shadow: var(--shadow-sm);
+  }
+
+  .portfolio-prose {
+    max-width: 72ch;
+    color: var(--foreground);
+  }
+
+  .portfolio-prose :where(p, ul, ol, blockquote) {
+    color: var(--muted-foreground);
+    line-height: var(--leading-relaxed);
+  }
+
+  .portfolio-prose :where(h2, h3) {
+    margin-top: var(--space-10);
+    margin-bottom: var(--space-4);
+  }
+
+  .portfolio-prose :where(a) {
+    font-weight: var(--weight-medium);
+    color: var(--primary);
+    text-decoration: underline;
+    text-underline-offset: 3px;
+  }
+
+  .portfolio-prose :where(strong) {
+    color: var(--foreground);
+    font-weight: var(--weight-semibold);
+  }
+
+  .portfolio-prose :where(code:not(pre code)) {
+    font-family: var(--font-mono-stack);
+    font-size: var(--text-sm);
+    padding: 0.1em 0.35em;
+    border-radius: var(--radius-md);
+    border: 1px solid var(--border);
+    background: var(--surface-elevated);
+  }
+
+  .portfolio-prose :where(pre) {
+    overflow-x: auto;
+    border: 1px solid var(--border);
+    border-radius: var(--radius-lg);
+    background: var(--surface-elevated);
+    padding: var(--space-4);
+  }
+
+  .prose-editor {
+    color: var(--foreground);
+  }
+
+  .prose-editor :where(p, ul, ol, blockquote, pre) {
+    margin-block: var(--space-3);
+    line-height: var(--leading-relaxed);
+  }
+
+  .prose-editor :where(h2, h3) {
+    margin-top: var(--space-5);
+    margin-bottom: var(--space-3);
+  }
+
+  .prose-editor :where(ul, ol) {
+    padding-left: var(--space-6);
+  }
+
+  .prose-editor :where(ul) {
+    list-style: disc;
+  }
+
+  .prose-editor :where(ol) {
+    list-style: decimal;
+  }
+
+  .prose-editor :where(blockquote) {
+    border-left: 3px solid var(--border-strong);
+    padding-left: var(--space-4);
+    color: var(--muted-foreground);
+  }
+
+  .prose-editor :where(pre) {
+    overflow-x: auto;
+    border-radius: var(--radius-lg);
+    background: var(--muted);
+    padding: var(--space-4);
+    font-family: var(--font-mono-stack);
+    font-size: var(--text-sm);
+  }
+}

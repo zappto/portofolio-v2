@@ -17,3 +17,9 @@ export function getAdminEmails() {
     .map((email) => email.trim().toLowerCase())
     .filter(Boolean);
 }
+
+export function getAdminPassword() {
+  const password = process.env.ADMIN_PASSWORD?.trim();
+
+  return password || undefined;
+}

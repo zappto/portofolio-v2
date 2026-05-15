@@ -6,9 +6,11 @@ Milestone 2 expects an existing Supabase project with:
 - `DATABASE_URL` set to the pooled Postgres connection string.
 - `NEXT_PUBLIC_SUPABASE_URL` set to the project URL.
 - `NEXT_PUBLIC_SUPABASE_ANON_KEY` set to the public anon key.
+- `ADMIN_EMAILS` set to allowed admin email addresses.
+- `ADMIN_PASSWORD` set to the admin login password as a server-only guard.
 - One admin Auth user.
 
-After the admin Auth user exists, run `supabase/admin-setup.sql` in the SQL editor with the real admin email.
+After the admin Auth user exists, run `supabase/admin-setup.sql` in the SQL editor with the real admin email. Keep the Supabase Auth user password and `ADMIN_PASSWORD` in sync.
 
 The Drizzle migrations create:
 

@@ -51,7 +51,7 @@ export function LoginForm({ nextPath }: LoginFormProps) {
         </p>
       ) : null}
       <Button type="submit" disabled={pending}>
-        {pending ? "Signing in..." : "Sign in"}
+        {pending ? "Signing In…" : "Sign In"}
       </Button>
     </form>
   );

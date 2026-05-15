@@ -2,6 +2,7 @@
 
 import { redirect } from "next/navigation";
 import { isAdminUser } from "@/lib/auth/admin";
+import { getAdminPassword } from "@/lib/supabase/env";
 import { createClient } from "@/lib/supabase/server";
 
 export type LoginState = {
@@ -20,6 +21,12 @@ export async function loginAction(
 
   if (!email || !password) {
     return { error: "Email dan password wajib diisi." };
+  }
+
+  const configuredAdminPassword = getAdminPassword();
+
+  if (configuredAdminPassword && password !== configuredAdminPassword) {
+    return { error: "Login gagal. Periksa email dan password." };
   }
 
   const supabase = await createClient();
